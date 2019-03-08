@@ -33,8 +33,8 @@ namespace xmrig
 enum Algo {
     INVALID_ALGO = -1,
     CRYPTONIGHT,        /* CryptoNight (2 MB) */
-    CRYPTONIGHT_UPX,   /* CryptoNight-UPX (uPlexa) */
     CRYPTONIGHT_LITE,   /* CryptoNight (1 MB) */
+    CRYPTONIGHT_UPX,  /* CryptoNight-UPX (uPlexa) */
     CRYPTONIGHT_HEAVY,  /* CryptoNight (4 MB) */
     CRYPTONIGHT_PICO,   /* CryptoNight (256 KB) */
     ALGO_MAX
